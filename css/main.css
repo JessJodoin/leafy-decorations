@@ -34,11 +34,14 @@ html {
 }
 
 .banner {
-
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg") center bottom / cover no-repeat #467366;
+  border-bottom: 3px solid #467366;
 }
 
 .banner-content {
+  background: url("../images/two-leaves.svg") left center/ 100px no-repeat transparent;
   color: #fff;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
